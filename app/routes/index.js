@@ -99,7 +99,6 @@ router.get('/board', (req,res) => {
   })
 });
 
-
 router.get('/topic', (req,res) => {
   res.render('topic');
 })
