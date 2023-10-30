@@ -1,0 +1,16 @@
+<%- include('header') %>
+
+<div>
+    <label class="h2 mt-4">Topic</label>
+</div>
+
+<form method="post" action="/topic">
+    <textarea name="topic" cols="80" rows="5" class="form-control"></textarea>
+    <div class="mt-2">
+        <button type="submit" class="btn-primary">
+            Post
+        </button>
+    </div>
+</form>
+
+<%- include('footer') %>
